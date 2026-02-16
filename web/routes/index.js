@@ -14,7 +14,8 @@ router.get('/ice-flakes', function (req, res, next) {
       resource: 'ice-flakes',
       count: 1005,
       shape: 'rectangle',
-      color: 'white'
+      color: 'white',
+      size: 'small'
     })
 })
 
